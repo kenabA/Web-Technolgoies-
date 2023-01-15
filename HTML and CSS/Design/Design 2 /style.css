@@ -1,0 +1,49 @@
+*{
+    font-family:'Poppins';
+}
+body{
+    background:linear-gradient(#865c52, #372b27) ;
+    width: 100%;
+    height: 100vh;
+    padding: 0%;
+    margin: 0%;
+}
+
+.details{
+    display: flex;
+    justify-content: space-around;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    margin-left: 15vh;
+    margin-top: 200px;
+}
+
+p{
+    margin-top: 200px;
+    margin-right: 20vh;
+    color: white;
+    font-size: 20px;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 75%;
+    height: auto;
+
+}
+
+span{
+    color:  #312623;
+    font-size: 70px;
+}
+h1{
+    color: white;
+    font-weight: 100;
+}

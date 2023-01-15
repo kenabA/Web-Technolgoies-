@@ -1,0 +1,26 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+#heading-one {
+    color: #696969;
+    background-color:black;
+    text-align: center;
+    font-size: 30px;
+}
+
+.para-1{
+background-color: #696969;
+color: black;
+}
+
+.para-2{
+    background-color: #828080;
+    color: whitesmoke
+    }
+
+    .para-3{
+        background-color: #696969;
+        color: black;
+        }
+        

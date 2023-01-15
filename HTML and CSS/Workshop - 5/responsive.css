@@ -1,0 +1,34 @@
+img{
+    max-width: 100%;
+    
+}
+p{
+    text-align: justify;
+    margin: 50px;
+    color: #ffffff;
+     background-color: #314ba1; 
+
+    width: 50vh;
+    height: 25vh;
+    padding: 10px;
+}
+/* For Laptop */
+@media screen and (min-width:769px) and (max-width: 1024px){
+    img{
+        max-width: 100%;
+    }
+}
+
+/* For Tablets */
+@media screen and (min-width:481px) and (max-width: 768px){
+    img{
+        max-width: 100%;
+    }
+}
+
+/* For Mobiles */
+@media screen and (min-width:320px) and (max-width: 480px){
+    img{
+        max-width: 100%;;
+    }
+}

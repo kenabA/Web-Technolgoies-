@@ -1,0 +1,63 @@
+.container{
+    
+    width: 1000px;
+    height: 2000px;
+    border: 2px solid red;
+    position: relative;
+    
+}
+
+/* RELATIVE */
+.box1{ 
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    background-color: rgb(152, 10, 0);
+    color: rgb(255, 0, 0);
+    position: relative;
+    top: 0%;
+    left: 20px;
+}
+
+/* ABSOLUTE */
+.box2{
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    background-color: rgb(0, 122, 4);
+    color: rgb(0, 255, 47);
+    position: absolute;
+    right: 20px;
+    
+}
+
+/* FIXED */
+.box3{
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    background-color: rgb(106, 2, 130);
+    color: rgb(242, 0, 255);
+    position: fixed;
+}
+/* STICKY */
+.box4{
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    background-color: rgb(131, 122, 0);
+    color: rgb(229, 255, 0);
+    position: sticky;
+}
+
+/* STATIC */
+.box5{
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    background-color: rgb(0, 195, 255);
+    color: rgb(0, 96, 125);
+    position: static;
+    top: 0%;
+    left: 20px;
+}

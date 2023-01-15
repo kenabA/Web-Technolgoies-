@@ -1,0 +1,77 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap'); 
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: rgb(238, 159, 11);
+}
+
+:root{
+    --poppins: 'Poppins', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+}
+
+/* TEXTS */
+
+h1{
+    font-size: 2rem;
+    font-family: var(--poppins);
+    color: white;
+}
+
+h2{
+    font-size: 1.5rem;
+    font-family: var(--poppins);
+    color: white;
+}
+
+p{
+    font-size: 1.25rem;
+    font-family: var(--roboto);
+    color: white;
+}
+
+/* CONTAINER */
+
+.container{
+    max-width: 1500px;
+    margin-inline: auto;
+    padding-inline: 20px;
+    margin-block: 50px ;
+    
+}
+
+/* header */
+
+.heading{
+    text-align: center;
+    font-family: var(--poppins);
+    font-size: 3rem;
+    color: rgb(255, 153, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.CARD{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+/* IMAGE */
+
+img{
+
+height: 40vh !important ;
+width: auto !important;
+}
+
+

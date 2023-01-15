@@ -1,0 +1,40 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    /* background-image: url(punte.jpeg); */
+    background: linear-gradient(#4568DC, #B06AB3);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#p1{
+    text-align: justify;
+    margin: 50px;
+    color: #ffffff;
+     background-color: #314ba1; 
+
+    width: 50vh;
+    height: 25vh;
+    padding: 10px;
+    
+}
+
+#p2{
+    margin: 50px;
+    color: #ffffff;
+   background-color:  #314ba1; 
+    width: 50vh;
+    height: 25vh;
+    padding: 10px;
+}
+
+#p3{
+    margin: 50px;
+    color: #ffffff;
+   background-color:  #314ba1; 
+    width: 50vh;
+    height: 25vh;
+    padding: 10px;
+    
+}

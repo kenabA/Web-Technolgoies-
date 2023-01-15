@@ -1,0 +1,51 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+}
+.container{
+text-align: center;
+}
+div img{
+    border-radius: 20px;
+}
+
+main{
+   display: flex;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+}
+main p{
+    background-color: antiquewhite;
+    width: 100vh;
+    height: 30vh;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.season{
+    
+   height: 8vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family:sans-serif;
+
+   
+}
+
+nav ol{
+    height: 10vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    background-color: blanchedalmond;
+    margin-top: 20px;
+}
+

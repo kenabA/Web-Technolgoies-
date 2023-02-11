@@ -1,0 +1,203 @@
+/* COPY FROM HERE TO - */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+:root{
+
+    /* FONT */
+    --poppins:'Poppins', sans-serif;
+    --roboto:'Roboto', sans-serif;
+
+    /* COLOR */
+    --herald:#74c043;
+    --dark: #41741f;
+    --darker: #274a10;
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin-inline:auto;
+    padding-inline: auto;
+}
+
+body{
+    background-image:linear-gradient(#74c043, #478f17);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 12vh;
+    align-items: center;
+    transition: 0.8s;   
+    padding-inline: 150px;
+}
+
+.menu{
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding-inline: 20px;
+    font-family: var(--poppins);
+    font-weight: lighter ;
+    transition: 0.2s ease;
+    
+}
+
+.logo img{
+    width: 80px;
+    transition: 0.2s ease-in;
+}
+
+.logo img:hover{
+    transform:rotate(-10deg);
+}
+
+ul li a:hover{
+    color: #41741f;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    width: 10vw;
+    transition: 0.2s;
+}
+
+.fa-brands{
+    font-size: 25px;
+    color: white;
+    transition: 0.2s;
+}
+
+.fa-brands:hover{
+    color: #41741f;
+    transform: scale(1.3);
+}
+
+.fa-solid{
+    font-size: 25px;
+    color: white;
+    transition: 0.2s;
+    z-index: 10001;
+    display: none;
+}
+
+.fa-solid:hover{
+    color: #41741f;
+    transform: scale(1.3);
+}
+
+.active .fa-solid{
+    color: var(--dark);
+}
+
+.active .fa-solid:hover{
+    color: var(--herald);
+}
+
+.abilities{
+    color: var(--dark);
+    transition: 0.2s;
+    cursor:default;
+}
+
+.contact{
+    font-family: var(--poppins);
+    color: white;
+}
+
+.font-asm{
+    font-size: 50px;
+    color: var(--herald);
+    display: block;
+    transition: none !important;
+    transform: none !important;
+    padding-block: 10px;
+}
+
+.font-asm:hover{
+    color: var(--herald);
+}
+
+.main{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 80vh;
+       
+    background-color: white; 
+}
+.info .box{
+    text-align: center;
+    font-family: var(--poppins);
+    color: var(--darker);
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.form{
+    font-family: var(--poppins);
+    color: var(--darker);
+    display: flex;
+}
+
+span{
+    font-size: 1.2rem;
+}
+.form h2{
+    padding-block: 20px;
+}
+.submit{
+    margin-top: 20px;
+}
+.submit input{
+    background-color: var(--darker);
+    text-decoration: none;
+    border: none;
+    color: white;
+    font-family: var(--poppins);
+    padding-inline:20px;
+    padding-block: 5px;
+    transition: 0.2s;
+}
+
+.submit input:hover{
+    color: whitesmoke;
+    background-color: var(--herald);
+    border: none;
+    
+}
+
+.inputBox{
+    padding-block: 5px;
+}
+
+.inputBox input{
+    width: 100%;
+    padding: 5px 0px;
+    border: none;
+    border-bottom: 2px solid var(--darker);
+    outline: none;
+}

@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+:root{
+
+    /* FONT */
+    --poppins:'Poppins', sans-serif;
+    --roboto:'Roboto', sans-serif;
+
+    /* COLOR */
+    --herald:#74c043
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+img{
+    width: 350px; 
+    transition: 0.5s;
+}
+
+img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* Parent Div */
+.landing-area{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    
+}
+
+/* Styling Button */
+
+.btn button{
+    border: 2.5px solid #74c043;
+    background: none;
+    color: #74c043;
+    padding: 10px 20px;
+    border-radius: 0px 0px 0px 0px;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-top: 30px;
+    font-family: var(--poppins);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+}
+    
+
+button::before{
+    content: "";
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    height: 0%;
+    background: #74c043;
+    z-index: -1;
+    transition: 0.5s;
+    top:0;
+    border-radius: 0 0 50% 50%;
+}
+
+
+button:hover{
+    
+    color: white;
+    background-color: #74c043;
+    transform: scale(1.05);
+}
+
+button:hover::before{
+    height: 180%;
+}
+
+
+
+/* RESPONSIVE MOBILE */
+
+@media only screen and (min-width:320px) and (max-width:482px){
+    *{
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+    
+    
+    img{
+        width: 250px; 
+        transition: 0.5s;
+    }
+    
+    img:hover{
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+    
+    /* Parent Div */
+    .landing-area{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+        justify-content: center;
+        
+    }
+    
+    /* Styling Button */
+    
+    .btn button{
+        border: 2.5px solid #74c043;
+        background: none;
+        color: #74c043;
+        padding: 5px 1 0px;
+        border-radius: 0px 0px 0px 0px;
+        text-decoration: none;
+        font-size: 0.8rem;
+        margin-top: 30px;
+        font-family: var(--poppins);
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    
+    button::before{
+        content: "";
+        position: absolute;
+        left: 0%;
+        width: 100%;
+        height: 0%;
+        background: #74c043;
+        z-index: -1;
+        transition: 0.5s;
+        top:0;
+        border-radius: 0 0 50% 50%;
+    }
+    
+    
+    button:hover{
+        
+        color: white;
+        background-color: #74c043;
+        transform: scale(1.05);
+    }
+    
+    button:hover::before{
+        height: 180%;
+    }
+
+    
+}
+
+/* RESPONSIVE TABLET */
+
+@media only screen and (min-width:481px) and (max-width:768px){
+    *{
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+    
+    
+    img{
+        width: 350px; 
+        transition: 0.5s;
+    }
+    
+    img:hover{
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+    
+    /* Parent Div */
+    .landing-area{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+        justify-content: center;
+        
+    }
+    
+    /* Styling Button */
+    
+    .btn button{
+        border: 2.5px solid #74c043;
+        background: none;
+        color: #74c043;
+        padding: 10px 20px;
+        border-radius: 0px 0px 0px 0px;
+        text-decoration: none;
+        font-size: 1rem;
+        margin-top: 30px;
+        font-family: var(--poppins);
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    
+    button::before{
+        content: "";
+        position: absolute;
+        left: 0%;
+        width: 100%;
+        height: 0%;
+        background: #74c043;
+        z-index: -1;
+        transition: 0.5s;
+        top:0;
+        border-radius: 0 0 50% 50%;
+    }
+    
+    
+    button:hover{
+        
+        color: white;
+        background-color: #74c043;
+        transform: scale(1.05);
+    }
+    
+    button:hover::before{
+        height: 180%;
+    }
+
+ 
+}
+
+    /* RESPONSIVE LAPTOP */
+
+@media only screen and (min-width:769px) and (max-width:1024px){
+    *{
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+    
+    
+    img{
+        width: 350px; 
+        transition: 0.5s;
+    }
+    
+    img:hover{
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+    
+    /* Parent Div */
+    .landing-area{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+        justify-content: center;
+        
+    }
+    
+    /* Styling Button */
+    
+    .btn button{
+        border: 2.5px solid #74c043;
+        background: none;
+        color: #74c043;
+        padding: 10px 20px;
+        border-radius: 0px 0px 0px 0px;
+        text-decoration: none;
+        font-size: 1rem;
+        margin-top: 30px;
+        font-family: var(--poppins);
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    
+    button::before{
+        content: "";
+        position: absolute;
+        left: 0%;
+        width: 100%;
+        height: 0%;
+        background: #74c043;
+        z-index: -1;
+        transition: 0.5s;
+        top:0;
+        border-radius: 0 0 50% 50%;
+    }
+    
+    
+    button:hover{
+        
+        color: white;
+        background-color: #74c043;
+        transform: scale(1.05);
+    }
+    
+    button:hover::before{
+        height: 180%;
+    }
+
+ 
+}
+
